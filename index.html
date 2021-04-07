@@ -2,34 +2,72 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="header center">
-        <div class="header_left">
-            <img src="img/logo.svg" alt="img logo">
-            <img class="header_search" src="img/button_search.svg" alt="img search">
+    <header class="header center">
+        <div class="header__left">
+            <img src="img/logo.svg" alt="logo">
+            <img class="header__search" src="img/search.svg" alt="search">
         </div>
-        <div class="header_right">
-            <img src="img/button_menu.svg" alt="img menu">
-            <img src="img/button_account.svg" alt="img account">
-            <img src="img/button_card.png" alt="img card">
+        <div class="header__right">
+            <svg class="header__icons" width="32" height="23" viewBox="0 0 32 23" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" fill="#E8E8E8" />
+            </svg>
+            <img class="header__icons" src="img/account.svg" alt="account">
+            <img class="header__icons" src="img/cart.svg" alt="cart">
         </div>
-
+    </header>
+    <div class="promo">
+        <div class="promo__left">
+            <img class="promo__img" src="img/promo__img.png" alt="promo image">
+        </div>
+        <div class="promo__right">
+            <div class="promo__content">
+                <h1 class="promo__h1">THE BRAND</h1>
+                <h3 class="promo__heading">OF LUXERIOUS <span class="promo__text">FASHION</span></h3>
+            </div>
+        </div>
     </div>
-
-    <div class="banner center">
-        <div class="banner_img">
-            <img src="img/banner.png" alt="banner image">
+    <div class="sale center">
+        <div class="sale__box">
+            <div class="sale__item">
+                <img class="sale__img" src="img/sale-item-1.jpg" alt="sale img">
+                <div class="sale__content">
+                    <p class="sale__text">30% OFF</p>
+                    <h3 class="sale__heading">FOR WOMEN</h3>
+                </div>
+            </div>
+            <div class="sale__item">
+                <img class="sale__img" src="img/sale-item-2.jpg" alt="sale img">
+                <div class="sale__content">
+                    <p class="sale__text">30% OFF</p>
+                    <h3 class="sale__heading">FOR WOMEN</h3>
+                </div>
+            </div>
+            <div class="sale__item">
+                <img class="sale__img" src="img/sale-item-3.jpg" alt="sale img">
+                <div class="sale__content">
+                    <p class="sale__text">30% OFF</p>
+                    <h3 class="sale__heading">FOR WOMEN</h3>
+                </div>
+            </div>
         </div>
-        <div class="banner_content">
-            <h1 class="banner_content_h1">THE BRAND</h1>
-            <h3 class="banner_content_text">OF LUXERIOUS FASHION</h3>
+        <div class="sale__item sale__item_big">
+            <img class="sale__img" src="img/sale-item-4.jpg" alt="sale img">
+            <div class="sale__content">
+                <p class="sale__text">30% OFF</p>
+                <h3 class="sale__heading">FOR WOMEN</h3>
+            </div>
         </div>
     </div>
 </body>
