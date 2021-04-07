@@ -30,7 +30,19 @@
      column-gap: 33px;
  }
 
- .search{
+ .header_search{
      margin-left: 41px;
  }
 
+ .banner{
+     background: #F1E4E6;
+     display: flex;
+ }
+
+ .banner_img{
+     width: 50%;
+ }
+
+.banner_content{
+    width: 50%;
+}
