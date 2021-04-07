@@ -2,3 +2,35 @@
     margin: 0;
     padding: 0;
  }
+
+ a{
+     text-decoration: none;
+ }
+
+ .center{
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+ }
+
+  .container{
+     max-width: 1140px;
+     margin: auto;
+ }
+
+ .header{
+     background: #222222;
+     height: 75px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .header_right{
+     display: flex;
+     column-gap: 33px;
+ }
+
+ .search{
+     margin-left: 41px;
+ }
+
