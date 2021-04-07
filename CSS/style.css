@@ -152,6 +152,12 @@ a {
     padding-bottom: 48px;
 }
 
+.fetured_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .fetured_item_top, .fetured_item_bottom {
     display: flex;
 }
@@ -198,4 +204,25 @@ a {
     padding-bottom: 20px;
     padding-top: 18px;
 }
+
+.fetured_button{
+    width: 211px;
+    height: 47px;
+    border: 1px solid #FF6A6A;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    background-color: white;
+    margin-top: 48px;
+    margin-bottom: 96px;
+}
+
+.footer {
+    background: #222222;
+    height: 341px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
 
