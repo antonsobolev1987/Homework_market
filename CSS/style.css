@@ -213,7 +213,7 @@ a {
     line-height: 19px;
     color: #F26376;
     background-color: white;
-    margin-top: 48px;
+    margin-top: 15px;
     margin-bottom: 96px;
 }
 
@@ -334,6 +334,19 @@ a {
     line-height: 17px;
     color: #222224;
     opacity: 0.67;
+}
+
+.footer_button{
+    background: #F16D7F;
+    border-radius: 0 20px 20px 0;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    width: 100px;
+    border-style: none;
 }
 
 .footer_bottom{
