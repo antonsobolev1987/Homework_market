@@ -33,6 +33,9 @@ a {
     display: flex;
     align-items: center;
 }
+.header_search {
+    margin-left: 41px;
+}
 
 .header_right {
     display: flex;
@@ -40,8 +43,8 @@ a {
     align-items: center;
 }
 
-.header_search {
-    margin-left: 41px;
+.navig_menu{
+    background-color: #000000;
 }
 
 .promo {
@@ -304,26 +307,24 @@ margin-right: 11px;
 
 .footer_middle{
     background-image: url(../img/footer_logo.jpg);
-    height: 53vh;
     display: flex;
+    align-items: center;
 }
 
 .footer_middle_left{
-    width: 33%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 90px;
-    
+    margin-top: 90px;
+    margin-bottom: 168px;
 }
 
 .footer_middle_right{
-    width: 67%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 222px;
-    padding-top: 118px;
+    margin-left: 223px;
+    margin-top: -20px;
 }
 
 .footer_right_text{
