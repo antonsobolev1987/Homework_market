@@ -29,6 +29,11 @@ a {
     align-items: center;
 }
 
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
 .header_right {
     display: flex;
     column-gap: 33px;
