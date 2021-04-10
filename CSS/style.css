@@ -48,8 +48,6 @@ a {
 }
 
 .header_icons{
-    width: 32px;
-    height: 23px;
     position: relative;
 }
 
@@ -120,22 +118,37 @@ ul{
     padding-left: 16px;
 }
 
-.promo_text {
-    color: #F16D7F;
-}
 
-.promo_h1 {
+
+.promo_h1{
+    font-style: normal;
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
     color: #222222;
 }
 
-.promo_heading {
-    font-weight: bold;
+.promo_content_text{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 53px;
+    color: #222222;
+    display: flex;
+}
+
+/* .promo_heading {
+    font-weight: normal;
     font-size: 32px;
     line-height: 38px;
     color: #222222;
+} */
+
+.promo_text {
+    color: #F16D7F;
+    /* font-weight: normal;
+    font-size: 32px;
+    line-height: 38px; */
 }
 
 
@@ -478,4 +491,103 @@ margin-right: 11px;
 
 .sn_img:hover .sn_img_icon path{
    fill: #FFFFFF;
+}
+
+
+@media (max-width: 1024px) and (min-width: 668px){
+ 
+    .header_left{
+        margin-left:32px;
+    }
+
+    .header_right{
+        margin-right: 32px;
+    }
+
+    .promo{
+        display: flex;
+        padding-left: calc(50% - 800px);
+        padding-right: calc(50% - 800px);
+    }
+
+     .promo_right {
+        padding-top: 138px;
+        padding-right: 34px;
+    }
+
+    .promo_content{
+        width: 283px;
+        margin-left: 67px;
+    }
+
+    .promo_content_text{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        color: #222222;
+        display: flex;
+    }
+}
+
+@media (max-width: 667px){
+
+    .header_left{
+        margin-left:16px;
+    }
+
+    .header_right{
+        margin-right: 16px;
+    }
+
+    #header_icons_account, #header_icons_cart{
+        display: none;
+    }
+
+    .promo{
+        display: flex;
+        padding-left: calc(50% - 667px);
+        padding-right: calc(50% - 667px);
+        height: 363px;
+    }
+
+    .promo_left{
+        display: none;
+    }
+
+    .promo_right {
+        padding: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .promo_content{
+        width: 236px;
+        margin-left: 56px;
+        margin-right: 56px;
+    }
+
+    .promo_h1{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 58px;
+        color: #222222;
+    }
+
+    .promo_content_text{
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 46px;
+        color: #222222;
+    }
+
+
+
+
+    
+
+
 }
