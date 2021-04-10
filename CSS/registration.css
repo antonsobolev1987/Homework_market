@@ -12,21 +12,10 @@ a {
 }
 
 .center {
-    padding-left: calc(50% - 570px);
-    padding-right: calc(50% - 570px);
-}
-
-.container {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
     max-width: 1140px;
     margin: auto;
-}
-
-.header {
-    background: #222222;
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 #header_icons_search {
@@ -91,54 +80,131 @@ ul{
     padding-left: 20px;
 }
 
-.footer {
+.header{
     background: #222222;
+}
+
+.header_top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.header_bottom{
+    background: #F8F3F4;
+    height: 148px;
+}
+
+.header_bottom_heading{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    padding: 60px 0 60px 0;
+}
+
+.main{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.form_content_text{
+    width: 652px;
+}
+
+.form_content_heading{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.form_label{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.form_radio{
+    display: flex;
+    padding: 14px 0 34px 0;
+}
+
+.form_label_radio{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    padding: 0 20px 0 10px;
+}
+
+.form_input_field{
+    width: 360px;
+    height: 45px;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    padding-left: 17px;
+}
+
+.miniprg{
+    padding: 0;
+}
+
+.form_button{
+    width: 211px;
+    height: 47px;
+    border: 1px solid #FF6A6A;
+    font-size: 16px;
+    line-height: 19px;
+    background: #F16D7F;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 96px;
+} 
+
+.form_button_img{
+    padding-left: 20px;
+}
+
+.form_button:hover{
+    background: #E05C6E;
+}
+
+.form_prg_icons{
+    padding-right: 24px;
+}
+
+.form_content_text_prg{
+    display: flex;
+    align-items: center;
+}
+
+.footer_up {
+    background: #222222;
+    background-image: url(../img/footer_logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-left: calc(50% - 800px);
     padding-right: calc(50% - 800px);
 }
 
-.footer_top{
-    display: flex;
-}
-
-.footer_top_item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer_item_img{
-    padding-top: 102px;
-    padding-bottom: 28px;
-    width: 40px;
-    height: 40px;
-}
-
-.footer_item_header{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19.96px;
-    line-height: 24px;
-    color: #FBFBFB;
-}
-
-.footer_item_text{
-    font-weight: 300;
-    font-size: 13.972px;
-    font-style: normal;
-    line-height: 17px;
-    color: #FBFBFB;
-    padding-top: 16px;
-    padding-bottom: 98px;
-    text-align: center;
-}
-
 .footer_middle{
-    background-image: url(../img/footer_logo.jpg);
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .footer_middle_left{
@@ -153,8 +219,6 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 223px;
-    margin-top: -20px;
 }
 
 .footer_right_text{
@@ -179,11 +243,13 @@ ul{
 }
 
 .footer_right_miniheading{
+    font-style: normal;
+    font-weight: bold;
     font-size: 24px;
-    line-height: 167.2%;
+    line-height: 29px;
     text-align: center;
+    width: 557px;
     color: #222224;
-    font-weight: normal;
 }
 
 .footer_subscribe{
@@ -217,7 +283,7 @@ ul{
     background: #E05C6E;
 }
 
-.footer_bottom{
+.footer_down{
     background: #222222;
     height: 79px;
     display: flex;
@@ -231,6 +297,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 .soc_network{
