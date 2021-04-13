@@ -20,11 +20,6 @@ ul {
   padding-right: calc(50% - 570px);
 }
 
-.container {
-  max-width: 1140px;
-  margin: auto;
-}
-
 .header {
   background: #222222;
   display: -webkit-box;
@@ -314,7 +309,7 @@ ul {
 
 .fetured_box_item_add_to_cart {
   display: none;
-   -webkit-box-pack: center;
+  -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
