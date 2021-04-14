@@ -1,0 +1,360 @@
+*
+    margin: 0
+    padding: 0
+
+body
+    font-family: 'Lato', sans-serif
+
+a
+    text-decoration: none
+
+ul
+    list-style-type: none
+
+.center
+    padding-left: calc(50% - 570px)
+    padding-right: calc(50% - 570px)
+
+.header
+    background: #222222
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: 75px
+
+    #header_icons_search
+        margin-left: 41px
+
+    &_right
+        display: flex
+        column-gap: 33px
+        align-items: center
+
+    &_icons
+        position: relative
+
+        &:hover &_color path
+            fill: #E05C6E
+
+        .navig_menu
+            font-size: 14px
+            line-height: 17px
+            color: #000000
+            background: #FFFFFF
+            display: none
+            position: absolute
+            left: 166px
+            top: 51px
+            height: 768px
+            width: 232px
+            border: 1px solid red
+
+        &:hover .navig_menu
+            display: flex
+
+            &_header
+                font-size: 14px
+                line-height: 17px
+                color: #000000
+                padding-left: 34px
+                padding-top: 38px
+
+                &_miniheader
+                    font-size: 14px
+                    line-height: 17px
+                    color: #F16D7F
+                    padding-top: 20px
+
+                    &_item
+                        font-size: 14px
+                        line-height: 17px
+                        color: #6F6E6E
+                        padding-top: 12px
+                        padding-left: 20px
+
+.header_down
+    background: #F8F3F4
+    height: 148px
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+    &_heading
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 29px
+        color: #F16D7F
+
+    &_pointer
+        font-style: normal
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        color: #636363
+
+        &_current
+            color: #F16D7F
+
+.catalog
+    display: flex
+    flex-direction: column
+
+    &_sort
+        display: flex
+        padding: 51px 0 65px 0
+
+        &_filter
+            font-style: normal
+            font-weight: 600
+            font-size: 14px
+            line-height: 17px
+            color: #000000
+            padding-left: 6px
+
+            &_icon
+                padding-left: 11px
+                padding-right: 304px
+
+        &_selection
+            font-style: normal
+            font-weight: normal
+            font-size: 14px
+            line-height: 17px
+            color: #6F6E6E
+
+            &_icon
+                padding-left: 10px
+                padding-right: 28px
+
+    &_box
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+
+        &_item
+            width: 360px
+            background: #F8F8F8
+            position: relative
+            margin-bottom: 30px
+
+            &_content
+                padding-left: 18px
+                padding-bottom: 12px
+                padding-top: 26px
+
+                &_heading_mini
+                    font-size: 13px
+                    line-height: 16px
+                    color: #000000
+                    padding-bottom: 12px
+                    padding-top: 26px
+
+                &_text
+                    font-weight: 300
+                    font-size: 14px
+                    line-height: 17px
+                    color: #5D5D5D
+
+                &_price
+                    font-size: 16px
+                    line-height: 19px
+                    color: #F16D7F
+                    padding-bottom: 20px
+                    padding-top: 18px
+
+            &:hover .catalog_box_item_img
+                filter: brightness(40%)
+
+            &_add_to_cart
+                display: none
+                justify-content: center
+                align-items: center
+                height: 44px
+                padding-left: 14px
+                padding-right: 16px
+                border: 1px solid #fff
+                font-size: 14px
+                line-height: 17px
+                color: #FFFFFF
+                position: absolute
+                top: 188px
+                left: 111px
+
+                &_style_cart
+                    margin-right: 11px
+
+            &:hover .catalog_box_item_add_to_cart
+                display: flex
+
+                &:hover
+                    color: black
+                    background-color: #fff
+
+                &:hover .catalog_box_item_add_to_cart_style_cart path
+                    fill: #000000
+
+    &_selectPage
+        display: flex
+        align-self: center
+        border: 1px solid #EBEBEB
+        margin: 49px 0 96px 0
+        padding: 15px 15px
+
+        &_numPage
+            font-style: normal
+            font-weight: normal
+            font-size: 20px
+            line-height: 17px
+            color: #6F6E6E
+
+            &:not(:last-child)
+                padding-right: 18px
+
+            &:hover
+                color: #EF5B70
+
+.footer_up
+    background: #222222
+    display: flex
+
+    &_item
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        &_img
+            padding-top: 102px
+            padding-bottom: 28px
+            width: 40px
+            height: 40px
+
+        &_header
+            font-style: normal
+            font-weight: normal
+            font-size: 19.96px
+            line-height: 24px
+            color: #FBFBFB
+
+        &_text
+            font-weight: 300
+            font-size: 13.972px
+            font-style: normal
+            line-height: 17px
+            color: #FBFBFB
+            padding-top: 16px
+            padding-bottom: 98px
+            text-align: center
+
+.footer_middle
+    background-image: url(../img/footer_logo.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+    display: flex
+    align-items: center
+    justify-content: center
+
+    &_left
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-top: 90px
+        margin-bottom: 168px
+
+        &_text
+            font-style: normal
+            font-weight: normal
+            font-size: 20px
+            line-height: 24px
+            text-align: center
+            color: #222224
+            width: 360px
+            padding-top: 20px
+
+    &_right
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-left: 223px
+        margin-top: -20px
+
+        &_text
+            margin-bottom: 32px
+
+            &_heading
+                font-size: 24px
+                line-height: 167.2%
+                text-align: center
+                color: #222224
+                font-weight: normal
+
+            &_miniheading
+                font-size: 24px
+                line-height: 167.2%
+                text-align: center
+                color: #222224
+                font-weight: normal
+
+        &_subscribe
+            display: flex
+
+            &_input
+                background: #E1E1E1
+                border-radius: 20px 0 0 20px
+                border-style: none
+                width: 256px
+                height: 49px
+                padding-left: 22px
+
+            &_button
+                background: #F16D7F
+                border-radius: 0 20px 20px 0
+                font-size: 14px
+                line-height: 17px
+                text-align: center
+                font-style: normal
+                font-weight: normal
+                color: #FFFFFF
+                border-style: none
+                width: 100px
+                height: 49px
+
+                &:hover
+                    background: #E05C6E
+
+.footer_bottom
+    background: #222222
+    height: 79px
+    display: flex
+    justify-content: space-between
+    padding: 0 235px 0 235px
+
+    &_copyright
+        font-size: 16px
+        line-height: 19px
+        color: #FBFBFB
+        display: flex
+        align-items: center
+        justify-content: center
+
+    &_soc_network
+        display: flex
+        align-items: center
+        justify-content: center
+
+        &_sn_img
+            width: 32px
+            height: 32px
+            background: #FFFFFF
+            display: flex
+            justify-content: center
+            align-items: center
+
+            &:not(:last-child)
+                margin-right: 8px
+
+            &:hover
+                background: #F16D7F
+
+            &:hover .footer_bottom_soc_network_sn_img_icon path
+                fill: #FFFFFF
