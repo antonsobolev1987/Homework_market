@@ -219,52 +219,6 @@ ul {
   padding-right: 24px;
 }
 
-.footer_up {
-  background: #222222;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer_up_item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.footer_up_item_img {
-  padding-top: 102px;
-  padding-bottom: 28px;
-  width: 40px;
-  height: 40px;
-}
-
-.footer_up_item_header {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 19.96px;
-  line-height: 24px;
-  color: #FBFBFB;
-}
-
-.footer_up_item_text {
-  font-weight: 300;
-  font-size: 13.972px;
-  font-style: normal;
-  line-height: 17px;
-  color: #FBFBFB;
-  padding-top: 16px;
-  padding-bottom: 98px;
-  text-align: center;
-}
-
 .footer_middle {
   background-image: url(../img/footer_logo.jpg);
   background-size: cover;
