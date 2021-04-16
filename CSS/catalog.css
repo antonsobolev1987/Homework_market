@@ -15,6 +15,14 @@ ul {
   list-style-type: none;
 }
 
+summary {
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
 .center {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
@@ -151,6 +159,104 @@ ul {
 
 .header_down_pageName_ul_li_link:hover {
   color: #F16D7F;
+}
+
+.sort {
+  padding-top: 39px;
+  padding-bottom: 33px;
+}
+
+.sort_filter {
+  position: relative;
+  height: 48px;
+}
+
+.sort_filter_main {
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+  padding: 13px 16px 16px;
+  width: 360px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sort_filter_main_label {
+  outline: none;
+}
+
+.sort_filter_main[open] {
+  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  border: 1px solid #EBEBEB;
+}
+
+.sort_filter_main[open] .sort_filter_main_label {
+  color: #F16D7F;
+}
+
+.sort_filter_main[open] svg path {
+  fill: #F16D7F;
+}
+
+.sort_filter_main_options {
+  margin-top: 16px;
+}
+
+.sort_filter_main_options[open] .sort_filter_main_options_category {
+  color: #F16D7F;
+}
+
+.sort_filter_main_options_category {
+  border-left: 5px solid #F16D7F;
+}
+
+.sort_filter_main_options_category_name {
+  display: block;
+  height: 37px;
+  border-bottom: 1px solid #EBEBEB;
+  padding-left: 11px;
+  line-height: 37px;
+}
+
+.sort_filter_main_options_ul {
+  list-style-type: none;
+  padding-left: 16px;
+  margin-top: 24px;
+}
+
+.sort_filter_main_options_ul_li {
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  margin-bottom: 11px;
+  display: block;
+}
+
+.sort_filter_main_options_ul_li_li:hover {
+  color: #F16D7F;
+}
+
+.sort_filter_specify {
+  position: absolute;
+  z-index: 2;
+  margin-right: 28px;
+}
+
+.sort_filter_specify_name_label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+}
+
+.sort_filter_specify_name_ul_li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6F6E6E;
 }
 
 .catalog {

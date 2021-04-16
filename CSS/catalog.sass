@@ -12,6 +12,12 @@ a
 ul
     list-style-type: none
 
+summary
+    display: block
+
+summary::-webkit-details-marker
+    display: none
+
 .center
     padding-left: calc(50% - 570px)
     padding-right: calc(50% - 570px)
@@ -110,6 +116,89 @@ ul
 
                 &:hover
                     color: #F16D7F
+
+.sort
+    padding-top: 39px
+    padding-bottom: 33px
+
+    &_filter
+        position: relative
+        height: 48px
+
+        &_main
+            position: absolute
+            z-index: 2
+            background-color: #fff
+            padding: 13px 16px 16px
+            width: 360px
+            -webkit-box-sizing: border-box
+            box-sizing: border-box
+
+            &_label
+                outline: none
+
+            &[open]
+                -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+                box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+                border: 1px solid #EBEBEB
+
+            &[open] .sort_filter_main_label
+                color: #F16D7F
+
+            &[open] svg path
+                fill: #F16D7F
+
+            &_options
+                margin-top: 16px
+
+                &[open] .sort_filter_main_options_category
+                    color: #F16D7F
+
+                &_category
+                    border-left: 5px solid #F16D7F
+
+                    &_name
+                        display: block
+                        height: 37px
+                        border-bottom: 1px solid #EBEBEB
+                        padding-left: 11px
+                        line-height: 37px
+
+                &_ul
+                    list-style-type: none
+                    padding-left: 16px
+                    margin-top: 24px
+
+                    &_li
+                        font-size: 14px
+                        line-height: 17px
+                        color: #6F6E6E
+                        margin-bottom: 11px
+                        display: block
+
+                        &_li:hover
+                            color: #F16D7F
+
+        &_specify
+            position: absolute
+            z-index: 2
+            margin-right: 28px
+
+            &_name
+                &_label
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 14px
+                    line-height: 17px
+                    color: #6F6E6E
+
+                &_ul
+                    &_li
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 14px
+                        line-height: 16px
+                        color: #6F6E6E
 
 .catalog
     display: flex
