@@ -80,22 +80,36 @@ ul
     align-items: center
     justify-content: space-between
 
-    &_heading
+    &_pageName
         font-style: normal
         font-weight: normal
         font-size: 24px
         line-height: 29px
         color: #F16D7F
 
-    &_pointer
-        font-style: normal
-        font-weight: 300
-        font-size: 14px
-        line-height: 17px
-        color: #636363
+        &_ul
+            display: flex
 
-        &_current
-            color: #F16D7F
+            &_li:last-child &_li_link
+                font-weight: bold
+                font-size: 14px
+                line-height: 17px
+                color: #F16D7F
+
+            &_li:not(:last-child)::after
+                content: '/'
+                padding-left: 8px
+                padding-right: 8px
+
+            &_li_link
+                font-style: normal
+                font-weight: normal
+                font-size: 14px
+                line-height: 17px
+                color: #636363
+
+                &:hover
+                    color: #F16D7F
 
 .catalog
     display: flex
