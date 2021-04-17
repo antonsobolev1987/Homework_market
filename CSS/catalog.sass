@@ -15,9 +15,6 @@ ul
 summary
     display: block
 
-summary::-webkit-details-marker
-    display: none
-
 .center
     padding-left: calc(50% - 570px)
     padding-right: calc(50% - 570px)
@@ -180,25 +177,135 @@ summary::-webkit-details-marker
                             color: #F16D7F
 
         &_specify
-            position: absolute
-            z-index: 2
-            margin-right: 28px
 
-            &_name
-                &_label
-                    font-style: normal
-                    font-weight: normal
-                    font-size: 14px
-                    line-height: 17px
-                    color: #6F6E6E
+            &_des
+                position: absolute
+                z-index: 2
+                left: 372px
+                background-color: #fff
+                margin-left: 18px
+                box-sizing: border-box
+                margin-right: 28px
 
-                &_ul
-                    &_li
+                &_name
+                    &[open]
+                        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+                        border: 1px solid #EBEBEB
+
+                    &[open] .sort_filter_specify_des_name_label
+                        color: #F16D7F
+
+                    &_label
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 14px
+                        line-height: 17px
+                        display: flex
+                        align-items: center
+                        width: 150px
+                        color: #6F6E6E
+                        outline: none
+                        padding-top: 13px
+                        padding-left: 16px
+
+                        &_icon
+                            padding-left: 8px
+                            align-self: center
+
+                    &_ul
                         font-style: normal
                         font-weight: normal
                         font-size: 14px
                         line-height: 16px
                         color: #6F6E6E
+                        padding-right: 9px
+
+                        &_li
+                            margin: 9px
+
+            &_sz
+                position: absolute
+                z-index: 2
+                left: 426px
+                background-color: #fff
+                margin-left: 134px
+                box-sizing: border-box
+                margin-right: 28px
+
+                &_name
+                    &[open]
+                        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+                        border: 1px solid #EBEBEB
+
+                    &[open] .sort_filter_specify_sz_name_label
+                        color: #F16D7F
+
+                    &_label
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 14px
+                        line-height: 17px
+                        color: #6F6E6E
+                        outline: none
+                        padding-top: 13px
+                        padding-left: 16px
+
+                        &_icon
+                            padding-left: 8px
+                            align-self: center
+
+                    &_ul
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 14px
+                        line-height: 16px
+                        color: #6F6E6E
+                        padding-right: 9px
+
+                        &_li
+                            margin: 9px
+
+            &_prc
+                position: absolute
+                z-index: 2
+                left: 428px
+                background-color: #fff
+                margin-left: 210px
+                box-sizing: border-box
+                margin-right: 28px
+
+                &_name
+                    &[open]
+                        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+                        border: 1px solid #EBEBEB
+
+                    &[open] .sort_filter_specify_prc_name_label
+                        color: #F16D7F
+
+                    &_label
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 14px
+                        line-height: 17px
+                        color: #6F6E6E
+                        outline: none
+                        padding-top: 13px
+                        padding-left: 16px
+
+                        &_icon
+                            padding-left: 8px
+                            align-self: center
+
+                    &_ul
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 14px
+                        line-height: 16px
+                        color: #6F6E6E
+                        padding-right: 9px
+
+                        &_li
+                            margin: 9px
 
 .catalog
     display: flex
