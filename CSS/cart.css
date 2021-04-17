@@ -122,6 +122,114 @@ ul {
   color: #F16D7F;
 }
 
+.content_right {
+  margin-top: 96px;
+}
+
+.content_right_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #eaeaea;
+  -webkit-box-shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.13);
+  width: 652px;
+}
+
+.content_right_item_img {
+  width: 262px;
+  height: 306px;
+}
+
+.content_right_item_info {
+  width: 390px;
+  padding: 22px 22px 62px 32px;
+}
+
+.content_right_item_info_heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.content_right_item_info_heading_h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+  height: 58px;
+  width: 210px;
+}
+
+.content_right_item_info_heading_icon:hover path {
+  fill: #F16D7F;
+}
+
+.content_right_item_info_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+.content_right_item_info_text_color {
+  color: #F16D7F;
+}
+
+.content_right_item_info_text:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.content_right_item_info_fieldInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content_right_item_info_fieldInput_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+.content_right_item_info_fieldInput_input {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #656565;
+  width: 44px;
+  margin-left: 25px;
+  text-align: center;
+  border: 1px solid #EAEAEA;
+}
+
+.content_right_item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.content_right_button_item {
+  background: #FFFFFF;
+  border: 1px solid #A4A4A4;
+  padding: 16px 36px;
+  margin: 32px 0 128px 0;
+}
+
+.content_right_button_item:not(:last-child) {
+  margin-right: 201px;
+}
+
 .footer_middle {
   background-image: url(../img/footer_logo.jpg);
   background-size: cover;
