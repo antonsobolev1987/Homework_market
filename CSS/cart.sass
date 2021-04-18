@@ -88,8 +88,10 @@ ul
         color: #F16D7F
 
 .content
+    display: flex
+    justify-content: space-between
 
-    &_right
+    &_left
         margin-top: 96px
 
         &_item
@@ -162,15 +164,117 @@ ul
             margin-bottom: 40px
 
         &_button
+            background: #FFFFFF
+            width: 235px
+            height: 50px
+            border: 1px solid #A4A4A4
+            margin-bottom: 128px
+            margin-top: 32px
 
             &_item
-                background: #FFFFFF
-                border: 1px solid #A4A4A4
-                padding: 16px 36px
-                margin: 32px 0 128px 0
+                font-style: normal
+                font-weight: 300
+                font-size: 14px
+                line-height: 17px
+                color: #000000
 
-            &_item:not(:last-child)
-                margin-right: 201px
+            &:hover
+                background: #E05C6E
+
+            &:hover &_item
+                color: #ffffff
+
+            &:not(:last-child)
+                margin-right: 175px
+
+    &_right
+
+        &_top
+            display: flex
+            flex-direction: column
+            margin-top: 113px
+
+            &_heading
+                font-style: normal
+                font-weight: 300
+                font-size: 16px
+                line-height: 19px
+                color: #222222
+
+            &_input
+                border: 1px solid #A4A4A4
+                width: 359px
+                height: 44px
+                padding-left: 16px
+                font-style: normal
+                font-weight: 300
+                font-size: 13px
+                line-height: 16px
+                color: #B1B1B1
+                margin-top: 21px
+
+            &_button
+                border: 1px solid #A4A4A4
+                width: 100px
+                height: 34px
+                font-style: normal
+                font-weight: 300
+                font-size: 11px
+                line-height: 13px
+                color: #4A4A4A
+                background: #FFFFFF
+                margin-top: 24px
+
+                &:hover
+                    background: #E05C6E
+                    color: #ffffff
+
+        &_bottom
+            margin-top: 58px
+            background: #F5F3F3
+
+            &_text
+                display: flex
+                flex-direction: column
+                align-items: flex-end
+                padding-top: 39px
+                margin: 0 42px 0 42px
+                border-bottom: 1px solid #E2E2E2
+                width: 275px
+
+                &_h2
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 11px
+                    line-height: 13px
+                    color: #4A4A4A
+
+                &_h1
+                    font-style: normal
+                    font-weight: 300
+                    font-size: 16px
+                    line-height: 19px
+                    color: #222222
+                    padding: 12px 0 21px 0
+
+                    &_price
+                        color: #F16D7F
+
+            &_button
+                width: 273px
+                height: 50px
+                background: #F16D7F
+                font-style: normal
+                font-weight: 300
+                font-size: 16px
+                line-height: 19px
+                color: #FFFFFF
+                margin: 17px 44px 42px 44px
+                border-style: none
+
+                &:hover
+                    background: #E05C6E
+
 .footer_middle
     background-image: url(../img/footer_logo.jpg)
     background-size: cover
@@ -279,7 +383,7 @@ ul
                 margin-right: 8px
 
             &:hover
-                background: #F16D7F
+                background: #E05C6E
 
             &:hover .footer_bottom_soc_network_sn_img_icon path
                 fill: #FFFFFF
