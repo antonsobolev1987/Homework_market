@@ -1,4 +1,6 @@
 
+@import "variables.sass"
+
 *
     margin: 0
     padding: 0
@@ -35,7 +37,7 @@ ul
         position: relative
 
         &:hover &_color path
-            fill: #E05C6E
+            fill: $color_hover
 
         .navig_menu
             font-size: 14px
@@ -63,7 +65,7 @@ ul
                 &_miniheader
                     font-size: 14px
                     line-height: 17px
-                    color: #F16D7F
+                    color: $color
                     padding-top: 20px
 
                     &_item
@@ -90,7 +92,7 @@ ul
         padding-right: 190px
 
         &_content
-            border-left: 12px solid #F16D7F
+            border-left: 12px solid $color
             padding-left: 16px
 
             &_h1
@@ -109,7 +111,7 @@ ul
                 display: flex
 
                 &_color
-                    color: #F16D7F
+                    color: $color
 
 .sale
     padding-top: 64px
@@ -148,7 +150,7 @@ ul
                     font-size: 24px
                     line-height: 29px
                     text-align: center
-                    color: #F16D7F
+                    color: $color
 
         &_item:not(:last-child)
             margin-right: 30px
@@ -207,7 +209,7 @@ ul
                 &_price
                     font-size: 16px
                     line-height: 19px
-                    color: #F16D7F
+                    color: $color
                     padding-bottom: 20px
                     padding-top: 18px
 
@@ -245,17 +247,17 @@ ul
     &_button
         width: 211px
         height: 47px
-        border: 1px solid #FF6A6A
+        border: 1px solid $color
         font-size: 16px
         line-height: 19px
-        color: #F26376
+        color: $color
         background-color: white
         margin-top: 15px
         margin-bottom: 96px
 
         &:hover
-            background: #F16D7F
-            border: 1px solid #FF6A6A
+            background: $color_hover
+            border: 1px solid $color_hover
             color: #FFFFFF
 
 .footer_up
@@ -351,7 +353,7 @@ ul
                 padding-left: 22px
 
             &_button
-                background: #F16D7F
+                background: $color
                 border-radius: 0 20px 20px 0
                 font-size: 14px
                 line-height: 17px
@@ -364,7 +366,7 @@ ul
                 height: 49px
 
                 &:hover
-                    background: #E05C6E
+                    background: $color_hover
 
 .footer_bottom
     background: #222222
@@ -398,7 +400,7 @@ ul
                 margin-right: 8px
 
             &:hover
-                background: #F16D7F
+                background: $color_hover
 
             &:hover .footer_bottom_soc_network_sn_img_icon path
                 fill: #FFFFFF

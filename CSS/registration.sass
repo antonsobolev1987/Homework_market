@@ -1,3 +1,4 @@
+@import "variables.sass"
 
 *
     margin: 0
@@ -35,7 +36,7 @@ ul
         position: relative
 
         &:hover &_color path
-            fill: #E05C6E
+            fill: $color_hover
 
         .navig_menu
             font-size: 14px
@@ -63,7 +64,7 @@ ul
                 &_miniheader
                     font-size: 14px
                     line-height: 17px
-                    color: #F16D7F
+                    color: $color
                     padding-top: 20px
 
                     &_item
@@ -84,7 +85,7 @@ ul
         font-weight: normal
         font-size: 24px
         line-height: 29px
-        color: #F16D7F
+        color: $color
 
 .main
     display: flex
@@ -133,10 +134,10 @@ ul
         &_button
             width: 211px
             height: 47px
-            border: 1px solid #FF6A6A
+            border: 1px solid $color
             font-size: 16px
             line-height: 19px
-            background: #F16D7F
+            background: $color
             color: #FFFFFF
             margin-top: 15px
             margin-bottom: 96px
@@ -145,7 +146,7 @@ ul
                 padding-left: 20px
 
             &:hover
-                background: #E05C6E
+                background: $color_hover
 
     &_form_content
         width: 652px
@@ -226,7 +227,7 @@ ul
                 padding-left: 22px
 
             &_button
-                background: #F16D7F
+                background: $color
                 border-radius: 0 20px 20px 0
                 font-size: 14px
                 line-height: 17px
@@ -239,7 +240,7 @@ ul
                 height: 49px
 
                 &:hover
-                    background: #E05C6E
+                    background: $color_hover
 
 .footer_bottom
     background: #222222
@@ -273,7 +274,7 @@ ul
                 margin-right: 8px
 
             &:hover
-                background: #F16D7F
+                background: $color_hover
 
             &:hover .footer_bottom_soc_network_sn_img_icon path
                 fill: #FFFFFF

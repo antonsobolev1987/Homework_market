@@ -58,7 +58,7 @@ summary {
 }
 
 .header_icons:hover .header_icons_color path {
-  fill: #E05C6E;
+  fill: #4d0de2;
 }
 
 .header_icons .navig_menu {
@@ -92,7 +92,7 @@ summary {
 .header_icons:hover .navig_menu_header_miniheader {
   font-size: 14px;
   line-height: 17px;
-  color: #F16D7F;
+  color: #1af125;
   padding-top: 20px;
 }
 
@@ -123,7 +123,7 @@ summary {
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
-  color: #F16D7F;
+  color: #1af125;
 }
 
 .header_down_pageName_ul {
@@ -136,7 +136,7 @@ summary {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #F16D7F;
+  color: #1af125;
 }
 
 .header_down_pageName_ul_li:not(:last-child)::after {
@@ -154,7 +154,7 @@ summary {
 }
 
 .header_down_pageName_ul_li_link:hover {
-  color: #F16D7F;
+  color: #4d0de2;
 }
 
 .sort {
@@ -188,11 +188,11 @@ summary {
 }
 
 .sort_filter_main[open] .sort_filter_main_label {
-  color: #F16D7F;
+  color: #1af125;
 }
 
 .sort_filter_main[open] svg path {
-  fill: #F16D7F;
+  fill: #1af125;
 }
 
 .sort_filter_main_options {
@@ -200,11 +200,12 @@ summary {
 }
 
 .sort_filter_main_options[open] .sort_filter_main_options_category {
-  color: #F16D7F;
+  color: #1af125;
 }
 
 .sort_filter_main_options_category {
-  border-left: 5px solid #F16D7F;
+  border-left: 5px solid #1af125;
+  outline: none;
 }
 
 .sort_filter_main_options_category_name {
@@ -227,10 +228,11 @@ summary {
   color: #6F6E6E;
   margin-bottom: 11px;
   display: block;
+  outline: none;
 }
 
 .sort_filter_main_options_ul_li_li:hover {
-  color: #F16D7F;
+  color: #4d0de2;
 }
 
 .sort_filter_specify_des {
@@ -251,7 +253,7 @@ summary {
 }
 
 .sort_filter_specify_des_name[open] .sort_filter_specify_des_name_label {
-  color: #F16D7F;
+  color: #1af125;
 }
 
 .sort_filter_specify_des_name_label {
@@ -310,7 +312,7 @@ summary {
 }
 
 .sort_filter_specify_sz_name[open] .sort_filter_specify_sz_name_label {
-  color: #F16D7F;
+  color: #1af125;
 }
 
 .sort_filter_specify_sz_name_label {
@@ -362,7 +364,7 @@ summary {
 }
 
 .sort_filter_specify_prc_name[open] .sort_filter_specify_prc_name_label {
-  color: #F16D7F;
+  color: #1af125;
 }
 
 .sort_filter_specify_prc_name_label {
@@ -448,7 +450,7 @@ summary {
 .catalog_box_item_content_price {
   font-size: 16px;
   line-height: 19px;
-  color: #F16D7F;
+  color: #1af125;
   padding-bottom: 20px;
   padding-top: 18px;
 }
@@ -521,7 +523,7 @@ summary {
 }
 
 .catalog_selectPage_numPage:hover {
-  color: #EF5B70;
+  color: #4d0de2;
 }
 
 .footer_up {
@@ -662,7 +664,7 @@ summary {
 }
 
 .footer_middle_right_subscribe_button {
-  background: #F16D7F;
+  background: #1af125;
   border-radius: 0 20px 20px 0;
   font-size: 14px;
   line-height: 17px;
@@ -676,7 +678,7 @@ summary {
 }
 
 .footer_middle_right_subscribe_button:hover {
-  background: #E05C6E;
+  background: #4d0de2;
 }
 
 .footer_bottom {
@@ -738,7 +740,7 @@ summary {
 }
 
 .footer_bottom_soc_network_sn_img:hover {
-  background: #F16D7F;
+  background: #4d0de2;
 }
 
 .footer_bottom_soc_network_sn_img:hover .footer_bottom_soc_network_sn_img_icon path {

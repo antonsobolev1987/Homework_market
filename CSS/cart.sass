@@ -1,3 +1,4 @@
+@import "variables.sass"
 
 *
     margin: 0
@@ -35,7 +36,7 @@ ul
         position: relative
 
         &:hover &_color path
-            fill: #E05C6E
+            fill: $color_hover
 
         .navig_menu
             font-size: 14px
@@ -63,7 +64,7 @@ ul
                 &_miniheader
                     font-size: 14px
                     line-height: 17px
-                    color: #F16D7F
+                    color: $color
                     padding-top: 20px
 
                     &_item
@@ -85,7 +86,7 @@ ul
         font-weight: normal
         font-size: 24px
         line-height: 29px
-        color: #F16D7F
+        color: $color
 
 .content
     display: flex
@@ -124,7 +125,7 @@ ul
                         width: 210px
 
                     &_icon:hover path
-                        fill: #F16D7F
+                        fill: $color_hover
 
                 &_text
                     font-style: normal
@@ -134,7 +135,7 @@ ul
                     color: #575757
 
                     &_color
-                        color: #F16D7F
+                        color: $color
 
                 &_text:not(:last-child)
                     margin-bottom: 6px
@@ -179,7 +180,7 @@ ul
                 color: #000000
 
             &:hover
-                background: #E05C6E
+                background: $color_hover
 
             &:hover &_item
                 color: #ffffff
@@ -226,7 +227,7 @@ ul
                 margin-top: 24px
 
                 &:hover
-                    background: #E05C6E
+                    background: $color_hover
                     color: #ffffff
 
         &_bottom
@@ -258,12 +259,12 @@ ul
                     padding: 12px 0 21px 0
 
                     &_price
-                        color: #F16D7F
+                        color: $color
 
             &_button
                 width: 273px
                 height: 50px
-                background: #F16D7F
+                background: $color
                 font-style: normal
                 font-weight: 300
                 font-size: 16px
@@ -273,7 +274,7 @@ ul
                 border-style: none
 
                 &:hover
-                    background: #E05C6E
+                    background: $color_hover
 
 .footer_middle
     background-image: url(../img/footer_logo.jpg)
@@ -336,7 +337,7 @@ ul
                 padding-left: 22px
 
             &_button
-                background: #F16D7F
+                background: $color
                 border-radius: 0 20px 20px 0
                 font-size: 14px
                 line-height: 17px
@@ -349,7 +350,7 @@ ul
                 height: 49px
 
                 &:hover
-                    background: #E05C6E
+                    background: $color_hover
 
 .footer_bottom
     background: #222222
@@ -383,7 +384,7 @@ ul
                 margin-right: 8px
 
             &:hover
-                background: #E05C6E
+                background: $color_hover
 
             &:hover .footer_bottom_soc_network_sn_img_icon path
                 fill: #FFFFFF
