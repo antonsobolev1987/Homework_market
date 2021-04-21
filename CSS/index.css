@@ -54,7 +54,7 @@ ul {
 }
 
 .header_icons:hover .header_icons_color path {
-  fill: #4d0de2;
+  fill: #E05C6E;
 }
 
 .header_icons .navig_menu {
@@ -88,7 +88,7 @@ ul {
 .header_icons:hover .navig_menu_header_miniheader {
   font-size: 14px;
   line-height: 17px;
-  color: #1af125;
+  color: #F16D7F;
   padding-top: 20px;
 }
 
@@ -125,7 +125,7 @@ ul {
 }
 
 .promo_right_content {
-  border-left: 12px solid #1af125;
+  border-left: 12px solid #F16D7F;
   padding-left: 16px;
 }
 
@@ -149,7 +149,7 @@ ul {
 }
 
 .promo_right_content_text_color {
-  color: #1af125;
+  color: #F16D7F;
 }
 
 .sale {
@@ -208,7 +208,7 @@ ul {
   font-size: 24px;
   line-height: 29px;
   text-align: center;
-  color: #1af125;
+  color: #F16D7F;
 }
 
 .sale_box_item:not(:last-child) {
@@ -297,7 +297,7 @@ ul {
 .fetured_box_item_content_price {
   font-size: 16px;
   line-height: 19px;
-  color: #1af125;
+  color: #F16D7F;
   padding-bottom: 20px;
   padding-top: 18px;
 }
@@ -349,18 +349,18 @@ ul {
 .fetured_button {
   width: 211px;
   height: 47px;
-  border: 1px solid #1af125;
+  border: 1px solid #F16D7F;
   font-size: 16px;
   line-height: 19px;
-  color: #1af125;
+  color: #F16D7F;
   background-color: white;
   margin-top: 15px;
   margin-bottom: 96px;
 }
 
 .fetured_button:hover {
-  background: #4d0de2;
-  border: 1px solid #4d0de2;
+  background: #E05C6E;
+  border: 1px solid #E05C6E;
   color: #FFFFFF;
 }
 
@@ -502,7 +502,7 @@ ul {
 }
 
 .footer_middle_right_subscribe_button {
-  background: #1af125;
+  background: #F16D7F;
   border-radius: 0 20px 20px 0;
   font-size: 14px;
   line-height: 17px;
@@ -516,7 +516,7 @@ ul {
 }
 
 .footer_middle_right_subscribe_button:hover {
-  background: #4d0de2;
+  background: #E05C6E;
 }
 
 .footer_bottom {
@@ -578,7 +578,7 @@ ul {
 }
 
 .footer_bottom_soc_network_sn_img:hover {
-  background: #4d0de2;
+  background: #E05C6E;
 }
 
 .footer_bottom_soc_network_sn_img:hover .footer_bottom_soc_network_sn_img_icon path {

@@ -58,7 +58,7 @@ summary {
 }
 
 .header_icons:hover .header_icons_color path {
-  fill: #4d0de2;
+  fill: #E05C6E;
 }
 
 .header_icons .navig_menu {
@@ -92,7 +92,7 @@ summary {
 .header_icons:hover .navig_menu_header_miniheader {
   font-size: 14px;
   line-height: 17px;
-  color: #1af125;
+  color: #F16D7F;
   padding-top: 20px;
 }
 
@@ -123,7 +123,7 @@ summary {
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
-  color: #1af125;
+  color: #F16D7F;
 }
 
 .header_down_pageName_ul {
@@ -136,7 +136,7 @@ summary {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #1af125;
+  color: #F16D7F;
 }
 
 .header_down_pageName_ul_li:not(:last-child)::after {
@@ -154,7 +154,7 @@ summary {
 }
 
 .header_down_pageName_ul_li_link:hover {
-  color: #4d0de2;
+  color: #E05C6E;
 }
 
 .sort {
@@ -188,11 +188,11 @@ summary {
 }
 
 .sort_filter_main[open] .sort_filter_main_label {
-  color: #1af125;
+  color: #F16D7F;
 }
 
 .sort_filter_main[open] svg path {
-  fill: #1af125;
+  fill: #F16D7F;
 }
 
 .sort_filter_main_options {
@@ -200,11 +200,11 @@ summary {
 }
 
 .sort_filter_main_options[open] .sort_filter_main_options_category {
-  color: #1af125;
+  color: #F16D7F;
 }
 
 .sort_filter_main_options_category {
-  border-left: 5px solid #1af125;
+  border-left: 5px solid #F16D7F;
   outline: none;
 }
 
@@ -232,7 +232,7 @@ summary {
 }
 
 .sort_filter_main_options_ul_li_li:hover {
-  color: #4d0de2;
+  color: #E05C6E;
 }
 
 .sort_filter_specify_des {
@@ -253,7 +253,7 @@ summary {
 }
 
 .sort_filter_specify_des_name[open] .sort_filter_specify_des_name_label {
-  color: #1af125;
+  color: #F16D7F;
 }
 
 .sort_filter_specify_des_name_label {
@@ -312,7 +312,7 @@ summary {
 }
 
 .sort_filter_specify_sz_name[open] .sort_filter_specify_sz_name_label {
-  color: #1af125;
+  color: #F16D7F;
 }
 
 .sort_filter_specify_sz_name_label {
@@ -364,7 +364,7 @@ summary {
 }
 
 .sort_filter_specify_prc_name[open] .sort_filter_specify_prc_name_label {
-  color: #1af125;
+  color: #F16D7F;
 }
 
 .sort_filter_specify_prc_name_label {
@@ -450,7 +450,7 @@ summary {
 .catalog_box_item_content_price {
   font-size: 16px;
   line-height: 19px;
-  color: #1af125;
+  color: #F16D7F;
   padding-bottom: 20px;
   padding-top: 18px;
 }
@@ -523,7 +523,7 @@ summary {
 }
 
 .catalog_selectPage_numPage:hover {
-  color: #4d0de2;
+  color: #E05C6E;
 }
 
 .footer_up {
@@ -664,7 +664,7 @@ summary {
 }
 
 .footer_middle_right_subscribe_button {
-  background: #1af125;
+  background: #F16D7F;
   border-radius: 0 20px 20px 0;
   font-size: 14px;
   line-height: 17px;
@@ -678,7 +678,7 @@ summary {
 }
 
 .footer_middle_right_subscribe_button:hover {
-  background: #4d0de2;
+  background: #E05C6E;
 }
 
 .footer_bottom {
@@ -740,7 +740,7 @@ summary {
 }
 
 .footer_bottom_soc_network_sn_img:hover {
-  background: #4d0de2;
+  background: #E05C6E;
 }
 
 .footer_bottom_soc_network_sn_img:hover .footer_bottom_soc_network_sn_img_icon path {

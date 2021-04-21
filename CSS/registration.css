@@ -54,7 +54,7 @@ ul {
 }
 
 .header_icons:hover .header_icons_color path {
-  fill: #4d0de2;
+  fill: #E05C6E;
 }
 
 .header_icons .navig_menu {
@@ -88,7 +88,7 @@ ul {
 .header_icons:hover .navig_menu_header_miniheader {
   font-size: 14px;
   line-height: 17px;
-  color: #1af125;
+  color: #F16D7F;
   padding-top: 20px;
 }
 
@@ -116,7 +116,7 @@ ul {
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
-  color: #1af125;
+  color: #F16D7F;
 }
 
 .main {
@@ -176,10 +176,10 @@ ul {
 .main_form_reg_button {
   width: 211px;
   height: 47px;
-  border: 1px solid #1af125;
+  border: 1px solid #F16D7F;
   font-size: 16px;
   line-height: 19px;
-  background: #1af125;
+  background: #F16D7F;
   color: #FFFFFF;
   margin-top: 15px;
   margin-bottom: 96px;
@@ -190,7 +190,7 @@ ul {
 }
 
 .main_form_reg_button:hover {
-  background: #4d0de2;
+  background: #E05C6E;
 }
 
 .main_form_content {
@@ -311,7 +311,7 @@ ul {
 }
 
 .footer_middle_right_subscribe_button {
-  background: #1af125;
+  background: #F16D7F;
   border-radius: 0 20px 20px 0;
   font-size: 14px;
   line-height: 17px;
@@ -325,7 +325,7 @@ ul {
 }
 
 .footer_middle_right_subscribe_button:hover {
-  background: #4d0de2;
+  background: #E05C6E;
 }
 
 .footer_bottom {
@@ -387,7 +387,7 @@ ul {
 }
 
 .footer_bottom_soc_network_sn_img:hover {
-  background: #4d0de2;
+  background: #E05C6E;
 }
 
 .footer_bottom_soc_network_sn_img:hover .footer_bottom_soc_network_sn_img_icon path {
