@@ -1,6 +1,24 @@
 
 @import "variables.sass"
 
+@-webkit-keyframes scale-up-center
+  0% 
+    -webkit-transform: scale(0.5)
+    transform: scale(0.5)
+
+  100%
+    -webkit-transform: scale(1)
+    transform: scale(1)
+
+@keyframes scale-up-center
+    0%
+        -webkit-transform: scale(0.5)
+        transform: scale(0.5)
+
+    100%
+        -webkit-transform: scale(1)
+        transform: scale(1)
+
 *
     margin: 0
     padding: 0
@@ -158,6 +176,41 @@ summary
         &_hr
             border: 1px solid #EAEAEA
             width: 641px
+
+    &_atrib
+        &_sort
+            display: flex
+            justify-content: center
+            margin: 65px 0 49px 0
+
+            &_size
+                padding: 0 22px
+
+        &_button
+            display: flex
+            justify-content: center
+            align-items: center
+            background: #FFFFFF
+            border: 1px solid $color
+            color: $color
+            width: 211px
+            height: 48px
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 19px
+            // transition: all 0.5ms
+
+            &_icon
+                padding-right: 22px
+
+            &:hover
+                background: $color_hover
+                color: #fff
+                animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards
+
+            &:hover .product_atrib_button_icon_color
+                fill: #fff
 
 .fetured
 
