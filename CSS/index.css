@@ -327,6 +327,8 @@ ul {
   position: absolute;
   top: 188px;
   left: 111px;
+  -webkit-transition: background 1s ease-out;
+  transition: background 1s ease-out;
 }
 
 .fetured_box_item_add_to_cart_style_cart {
@@ -358,14 +360,14 @@ ul {
   background-color: white;
   margin-top: 15px;
   margin-bottom: 96px;
+  -webkit-transition: background 1s ease-out;
+  transition: background 1s ease-out;
 }
 
 .fetured_button:hover {
   background: #E05C6E;
   border: 1px solid #E05C6E;
   color: #FFFFFF;
-  -webkit-transition: background 1s ease-out;
-  transition: background 1s ease-out;
 }
 
 .footer_up {
@@ -585,8 +587,8 @@ ul {
 
 .footer_bottom_soc_network_sn_img:hover {
   background: #E05C6E;
-  -webkit-transition: background 0.5s ease-out;
-  transition: background 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .footer_bottom_soc_network_sn_img:hover .footer_bottom_soc_network_sn_img_icon path {
