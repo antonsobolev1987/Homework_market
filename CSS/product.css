@@ -290,6 +290,10 @@ summary {
   background: #F8F8F8;
   position: relative;
   margin-bottom: 30px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 
 .fetured_box_item_content {
@@ -365,6 +369,11 @@ summary {
 
 .fetured_box_item:hover .fetured_box_item_add_to_cart:hover .fetured_box_item_add_to_cart_style_cart path {
   fill: #000000;
+}
+
+.fetured_box_item:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
 }
 
 .footer_middle {
