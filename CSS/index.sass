@@ -35,10 +35,14 @@ ul
 
     &_icons
         position: relative
+        transition: all 1.5s
 
         &:hover &_color path
             fill: $color_hover
             transition: fill .5s ease-out
+
+        &:hover
+            transform: rotate(360deg)
 
         .navig_menu
             font-size: 14px
@@ -53,7 +57,7 @@ ul
             width: 232px
             border: 1px solid red
 
-        &:hover .navig_menu
+        &:focus .navig_menu
             display: flex
 
             &_header

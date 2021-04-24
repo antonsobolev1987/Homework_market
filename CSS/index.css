@@ -51,12 +51,19 @@ ul {
 
 .header_icons {
   position: relative;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
 }
 
 .header_icons:hover .header_icons_color path {
   fill: #E05C6E;
   -webkit-transition: fill .5s ease-out;
   transition: fill .5s ease-out;
+}
+
+.header_icons:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .header_icons .navig_menu {
@@ -73,13 +80,13 @@ ul {
   border: 1px solid red;
 }
 
-.header_icons:hover .navig_menu {
+.header_icons:focus .navig_menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header_icons:hover .navig_menu_header {
+.header_icons:focus .navig_menu_header {
   font-size: 14px;
   line-height: 17px;
   color: #000000;
@@ -87,14 +94,14 @@ ul {
   padding-top: 38px;
 }
 
-.header_icons:hover .navig_menu_header_miniheader {
+.header_icons:focus .navig_menu_header_miniheader {
   font-size: 14px;
   line-height: 17px;
   color: #F16D7F;
   padding-top: 20px;
 }
 
-.header_icons:hover .navig_menu_header_miniheader_item {
+.header_icons:focus .navig_menu_header_miniheader_item {
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;

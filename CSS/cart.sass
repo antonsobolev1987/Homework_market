@@ -34,6 +34,10 @@ ul
 
     &_icons
         position: relative
+        transition: all 1.5s
+
+        &:hover
+            transform: rotate(360deg)
 
         &:hover &_color path
             fill: $color_hover
@@ -52,7 +56,7 @@ ul
             width: 232px
             border: 1px solid red
 
-        &:hover .navig_menu
+        &:active .navig_menu
             display: flex
 
             &_header
