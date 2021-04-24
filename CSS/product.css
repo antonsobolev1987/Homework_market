@@ -59,8 +59,8 @@ summary {
 
 .header_icons:hover .header_icons_color path {
   fill: #E05C6E;
-  -webkit-transition: fill 0.5s ease-out;
-  transition: fill 0.5s ease-out;
+  -webkit-transition: fill .5s ease-out;
+  transition: fill .5s ease-out;
 }
 
 .header_icons .navig_menu {
@@ -258,8 +258,8 @@ summary {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  -webkit-transition: background .3s ease-out;
-  transition: background .3s ease-out;
+  -webkit-transition: background .5s ease-out;
+  transition: background .5s ease-out;
 }
 
 .product_atrib_button_icon {
@@ -348,8 +348,8 @@ summary {
   position: absolute;
   top: 188px;
   left: 111px;
-  -webkit-transition: background .3s ease-out;
-  transition: background .3s ease-out;
+  -webkit-transition: background .5s ease-out;
+  transition: background .5s ease-out;
 }
 
 .fetured_box_item_add_to_cart_style_cart {
@@ -479,12 +479,12 @@ summary {
   border-style: none;
   width: 100px;
   height: 49px;
+  -webkit-transition: background .5s ease-out;
+  transition: background .5s ease-out;
 }
 
 .footer_middle_right_subscribe_button:hover {
   background: #E05C6E;
-  -webkit-transition: background 0.5s ease-out;
-  transition: background 0.5s ease-out;
 }
 
 .footer_bottom {
@@ -539,6 +539,8 @@ summary {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: background .5s ease-out;
+  transition: background .5s ease-out;
 }
 
 .footer_bottom_soc_network_sn_img:not(:last-child) {
@@ -547,8 +549,6 @@ summary {
 
 .footer_bottom_soc_network_sn_img:hover {
   background: #E05C6E;
-  -webkit-transition: background 0.5s ease-out;
-  transition: background 0.5s ease-out;
 }
 
 .footer_bottom_soc_network_sn_img:hover .footer_bottom_soc_network_sn_img_icon path {
