@@ -19,65 +19,121 @@ ul
 
 .header
     background: #222222
-    display: flex
-    justify-content: space-between
-    align-items: center
     height: 75px
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
+    justify-content: space-between
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    position: relative
 
-    #header_icons_search
-        margin-left: 41px
-
-    &_right
+    &__right
+        display: -webkit-box
+        display: -ms-flexbox
         display: flex
+        -webkit-column-gap: 33px
         column-gap: 33px
+        -webkit-box-align: center
+        -ms-flex-align: center
         align-items: center
 
-    &_icons
-        position: relative
-        transition: all 1.5s
+    &__search
+        margin-left: 41px
 
-        &:hover
-            transform: rotate(360deg)
+.header__menu
+    width: 32px
+    height: 23px
+    background: #222222
+    border: none
+    outline: none
 
-        &:hover &_color path
-            fill: $color_hover
-            transition: background .5s ease-out
+.menu__img
+    transition: all .2s
 
-        .navig_menu
-            font-size: 14px
-            line-height: 17px
-            color: #000000
-            background: #FFFFFF
-            display: none
-            position: absolute
-            left: 166px
-            top: 51px
-            height: 768px
-            width: 232px
-            border: 1px solid red
+.header__menu:hover
+    cursor: pointer
 
-        &:active .navig_menu
-            display: flex
+.header__menu:hover .button_path
+    fill: $color
 
-            &_header
-                font-size: 14px
-                line-height: 17px
-                color: #000000
-                padding-left: 34px
-                padding-top: 38px
+.header__menu:focus .menu__img
+    transform: rotate(90deg)
 
-                &_miniheader
-                    font-size: 14px
-                    line-height: 17px
-                    color: $color
-                    padding-top: 20px
+.header__menu:focus .main__menu
+    display: block
 
-                    &_item
-                        font-size: 14px
-                        line-height: 17px
-                        color: #6F6E6E
-                        padding-top: 12px
-                        padding-left: 20px
+.main__menu-close
+    text-align: right
+
+.menu-close-link:focus .main__menu
+    display: none
+
+.menu-close-link:hover path
+    fill: $color_hover
+
+.main__menu
+    display: none
+    height: 764px
+    width: 232px
+    background: #FFFFFF
+    position: absolute
+    z-index: 10
+    top: 76px
+    right: -1px
+    text-align: left
+    padding-top: 16px
+    padding-left: 34px
+    padding-right: 16px
+    box-sizing: border-box
+    box-shadow: 6px 4px 35px 0px #00000036
+
+    &:hover
+        cursor: default
+
+    &-heading
+        font-size: 14px
+        font-weight: 700
+        line-height: 17px
+        letter-spacing: 0em
+
+    &-list
+        margin-top: 24px
+
+    &-items
+        font-size: 14px
+        font-weight: 400
+        line-height: 17px
+        letter-spacing: 0em
+        color: $color
+
+    &-sublist
+        display: flex
+        flex-direction: column
+        row-gap: 10px
+        margin-top: 10px
+        margin-bottom: 10px
+        margin-left: 20px
+
+    &-link
+        font-size: 14px
+        font-weight: 400
+        line-height: 17px
+        letter-spacing: 0em
+        color: #6F6E6E
+        transition: all .2s
+
+    &-link:hover
+        color: $color_hover
+
+    &-list
+        list-style: none
+
+    &-sublist
+        list-style: none
 
 .header_down
     background: #F8F3F4
