@@ -344,6 +344,7 @@ ul
                 fill: #FFFFFF
 
 @media (max-width: 1024px) and (min-width: 768px)
+
     .header
         padding: 18px 32px 18px 32px
 
@@ -386,3 +387,76 @@ ul
     .footer_bottom
         padding: 30px 32px 30px 32px
         height: unset
+
+@media (max-width: 767px)
+
+    .header
+        padding: 18px 16px 18px 16px
+
+    .header__link
+        display: none
+
+    .header_down
+        display: flex
+        justify-content: center
+
+    .main
+        display: unset
+
+    .main_form_reg
+        padding: 16px 16px
+
+    .main_form_content_prg
+        align-items: unset
+
+    .main_form_reg_input
+        width: 100%
+
+    .main_form_reg_button
+        margin-bottom: 40px
+        margin-top: 20px
+
+    .main_form_content
+        width: unset
+        padding: 16px 16px
+
+    .main_form_content_heading
+        width: unset
+        font-style: normal
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        color: #000000
+
+    .footer_middle
+        display: flex
+        flex-direction: column
+
+        &_left
+            &_text
+                width: unset
+
+        &_right
+            margin-left: unset
+
+            &_text
+                margin-bottom: unset
+
+            &_subscribe
+                padding: 22px 0 110px 0
+
+                &_input
+                    width: unset
+
+                &_button
+                    padding: 0 15px 0 15px
+
+    .footer_bottom
+        padding: 43px 62px 24px 62px
+        display: flex
+        flex-direction: column-reverse
+        align-items: center
+
+        &_copyright
+            text-align: center
+            padding-top: 25px
