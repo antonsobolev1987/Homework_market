@@ -472,6 +472,7 @@ ul {
 
 @media (max-width: 1024px) and (min-width: 768px) {
   .header {
+    height: unset;
     padding: 18px 32px 18px 32px;
   }
   .header_down {
@@ -529,7 +530,8 @@ ul {
 
 @media (max-width: 767px) {
   .header {
-    padding: 18px 16px 18px 16px;
+    height: unset;
+    padding: 18px 32px 18px 32px;
   }
   .header__link {
     display: none;
