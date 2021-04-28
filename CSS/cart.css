@@ -325,15 +325,16 @@ ul {
   color: #000000;
 }
 
-.content_left_buttons:hover {
+.content_left_buttons_button:hover {
+  cursor: pointer;
   background: #E05C6E;
 }
 
-.content_left_buttons:hover .content_left_buttons_item {
+.content_left_buttons_button:hover .content_left_buttons_button_item {
   color: #ffffff;
 }
 
-.content_left_buttons:not(:last-child) {
+.content_left_buttons_button:not(:last-child) {
   margin-right: 175px;
 }
 
@@ -386,6 +387,7 @@ ul {
 
 .content_right_top_button:hover {
   background: #E05C6E;
+  cursor: pointer;
   color: #ffffff;
 }
 
@@ -448,6 +450,7 @@ ul {
 }
 
 .content_right_bottom_button:hover {
+  cursor: pointer;
   background: #E05C6E;
 }
 
@@ -559,6 +562,7 @@ ul {
 }
 
 .footer_middle_right_subscribe_button:hover {
+  cursor: pointer;
   background: #E05C6E;
 }
 

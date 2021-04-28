@@ -262,6 +262,7 @@ ul {
 }
 
 .main_form_reg_button:hover {
+  cursor: pointer;
   background: #E05C6E;
 }
 
@@ -400,6 +401,7 @@ ul {
 
 .footer_middle_right_subscribe_button:hover {
   background: #E05C6E;
+  cursor: pointer;
 }
 
 .footer_bottom {

@@ -253,6 +253,10 @@ summary {
   box-sizing: border-box;
 }
 
+.sort_filter_main:hover {
+  cursor: pointer;
+}
+
 .sort_filter_main_label {
   outline: none;
 }
@@ -322,6 +326,10 @@ summary {
   left: 374px;
   padding: 13px 16px 13px 16px;
   width: 360px;
+}
+
+.sort_specify_item:hover {
+  cursor: pointer;
 }
 
 .sort_specify_item_name_label {
@@ -475,6 +483,7 @@ summary {
 }
 
 .catalog_selectPage_numPage:hover {
+  cursor: pointer;
   color: #E05C6E;
 }
 
@@ -632,6 +641,7 @@ summary {
 }
 
 .footer_middle_right_subscribe_button:hover {
+  cursor: pointer;
   background: #E05C6E;
 }
 

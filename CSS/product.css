@@ -316,8 +316,20 @@ summary {
   margin: 65px 0 49px 0;
 }
 
+.product_content_atrib_sort_color:hover {
+  cursor: pointer;
+}
+
 .product_content_atrib_sort_size {
   padding: 0 22px;
+}
+
+.product_content_atrib_sort_size:hover {
+  cursor: pointer;
+}
+
+.product_content_atrib_sort_quant:hover {
+  cursor: pointer;
 }
 
 .product_content_atrib_button {
@@ -350,6 +362,7 @@ summary {
 
 .product_content_atrib_button:hover {
   background: #E05C6E;
+  cursor: pointer;
   color: #fff;
 }
 
@@ -566,6 +579,7 @@ summary {
 }
 
 .footer_middle_right_subscribe_button:hover {
+  cursor: pointer;
   background: #E05C6E;
 }
 

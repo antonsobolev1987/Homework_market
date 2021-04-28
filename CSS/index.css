@@ -228,6 +228,18 @@ ul {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.sale_box_item:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+  cursor: pointer;
 }
 
 .sale_box_item_img {
@@ -431,6 +443,7 @@ ul {
 }
 
 .fetured_button:hover {
+  cursor: pointer;
   background: #E05C6E;
   border: 1px solid #E05C6E;
   color: #FFFFFF;
@@ -590,6 +603,7 @@ ul {
 }
 
 .footer_middle_right_subscribe_button:hover {
+  cursor: pointer;
   background: #E05C6E;
 }
 

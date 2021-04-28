@@ -238,8 +238,16 @@ summary
                 justify-content: center
                 margin: 65px 0 49px 0
 
+                &_color:hover
+                    cursor: pointer
+
                 &_size
                     padding: 0 22px
+                    &:hover
+                        cursor: pointer
+
+                &_quant:hover
+                    cursor: pointer
 
             &_button
                 display: flex
@@ -262,6 +270,7 @@ summary
 
                 &:hover
                     background: $color_hover
+                    cursor: pointer
                     color: #fff
 
                 &:hover .product_atrib_button_icon_color
@@ -416,6 +425,7 @@ summary
                 transition: background .5s ease-out
 
                 &:hover
+                    cursor: pointer
                     background: $color_hover
 
 .footer_bottom

@@ -177,6 +177,12 @@ ul
         &_item
             display: flex
             position: relative
+            transition: transform 1s
+
+            &:hover
+                transform: scale(1.070)
+                filter: brightness(40%)
+                cursor: pointer
 
             &_img
                 width: 100%
@@ -315,6 +321,7 @@ ul
         transition: background .5s ease-out
 
         &:hover
+            cursor: pointer
             background: $color_hover
             border: 1px solid $color_hover
             color: #FFFFFF
@@ -426,6 +433,7 @@ ul
                 transition: background .5s ease-out
 
                 &:hover
+                    cursor: pointer
                     background: $color_hover
 
 .footer_bottom
