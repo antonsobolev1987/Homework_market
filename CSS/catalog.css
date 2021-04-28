@@ -918,11 +918,22 @@ summary {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header_down_pageName {
+    padding: 24px 0 32px 0;
+  }
+  .header_down_pageName_ul {
+    padding-bottom: 46px;
+  }
+  .sort_filter_main_label:before {
+    content: none;
+  }
+  .sort_filter_main_icon {
+    width: 37px;
+    height: 25px;
   }
   .catalog {
     padding: 16px;

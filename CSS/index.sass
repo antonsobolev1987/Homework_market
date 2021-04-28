@@ -163,16 +163,8 @@ ul
                 line-height: 58px
                 color: #222222
 
-            &_text
-                font-style: normal
-                font-weight: 900
-                font-size: 28px
-                line-height: 53px
-                color: #222222
-                display: flex
-
-                &_color
-                    color: $color
+            &_color
+                color: $color
 
 .sale
     padding-top: 64px
@@ -473,3 +465,104 @@ ul
 
             &:hover .footer_bottom_soc_network_sn_img_icon path
                 fill: #FFFFFF
+
+@media (max-width: 1024px) and (min-width: 768px)
+
+    .header
+        height: unset
+        padding: 18px 32px 18px 32px
+
+    .header_down
+        padding-left: 16px
+        padding-right: 16px
+
+    .promo
+
+        &_right
+            width: 50%
+            padding-right: 33px
+
+            &_content
+
+                &_h1
+                    font-style: normal
+                    font-weight: 900
+                    font-size: 44px
+                    line-height: 53px
+                    color: #222222
+
+                &_color
+                    font-style: normal
+                    font-weight: 900
+                    font-size: 44px
+                    line-height: 53px
+                    color: $color
+
+    .sale
+        padding: 19px 16px 154px 16px
+
+        &_box
+            margin-bottom: 20px
+
+            &_item:not(:last-child)
+                margin-right: 20px
+
+    .fetured
+
+        &_heading
+
+            &_text
+                padding-bottom: 72px
+
+        &_box
+            display: flex
+            justify-content: space-between
+            margin-left: 16px
+            margin-right: 16px
+
+            &_item
+                margin-bottom: 16px
+
+        &_button
+            margin-top: 16px
+            margin-bottom: 65px
+
+    .footer_up
+        display: flex
+        flex-direction: column
+
+        &_item
+            padding-top: 48px
+
+            &:last-child
+                padding-bottom: 48px
+
+            &_img
+                padding: 0 0 28px 0
+
+            &_text
+                padding: 16px 0 0 0
+                font-style: normal
+                font-weight: 300
+                font-size: 13.972px
+                line-height: 17px
+                text-align: center
+                color: #FBFBFB
+                width: 360px
+
+    .footer_middle
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        &_left
+            margin-top: 53px
+            margin-bottom: 48px
+
+        &_right
+            margin-left: 0
+            margin-bottom: 140px
+
+    .footer_bottom
+        padding: 30px 32px 30px 32px
+        height: unset

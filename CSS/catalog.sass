@@ -690,8 +690,26 @@ summary
     .header_down
         display: flex
         flex-direction: column
-        align-items: center
-        justify-content: space-around
+        justify-content: center
+
+        &_pageName
+            padding: 24px 0 32px 0
+
+            &_ul
+                padding-bottom: 46px
+
+    .sort
+
+        &_filter
+
+            &_main
+
+                &_label:before
+                    content: none
+
+                &_icon
+                    width: 37px
+                    height: 25px
 
     .catalog
         padding: 16px
