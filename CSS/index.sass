@@ -566,3 +566,147 @@ ul
     .footer_bottom
         padding: 30px 32px 30px 32px
         height: unset
+
+@media (max-width: 767px)
+
+    .header
+        height: unset
+        padding: 18px 32px 18px 32px
+
+    .header__link
+        display: none
+
+    .header_down
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        &_pageName
+            padding: 24px 0 32px 0
+
+            &_ul
+                padding-bottom: 46px
+
+    .promo
+        background: #F1E4E6
+        display: block
+
+        &_left
+            display: none
+            padding: left 56px
+            padding-right: 56px
+
+        &_right
+            padding: unset
+            height: 363px
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+
+            &_content
+
+                &_h1
+                    font-style: normal
+                    font-weight: 900
+                    font-size: 38px
+                    line-height: 46px
+                    color: #222222
+                    width: 236px
+
+                &_color
+                    font-style: normal
+                    font-weight: 900
+                    font-size: 38px
+                    line-height: 46px
+                    color: $color
+
+    .sale
+        padding: 64px 16px 32px 16px
+
+        &_box
+            display: flex
+            flex-direction: column
+            margin-bottom: unset
+
+            &_item
+                margin-bottom: 32px
+
+            &_item:not(:last-child)
+                margin-right: unset
+
+    .fetured
+
+        &_heading
+
+            &_text
+                padding-bottom: 48px
+
+        &_box
+            display: flex
+            flex-direction: column
+
+            &_item:not(:last-child)
+                margin-bottom: 16px
+
+            &_item:last-child
+                margin-bottom: unset
+
+        &_button
+            margin-top: 41px
+
+    .footer_up
+        display: flex
+        flex-direction: column
+
+        &_item
+            padding-top: 46px
+
+            &:last-child
+                padding-bottom: 81px
+
+            &_img
+                padding: 0 0 18px 0
+
+            &_text
+                padding: 14px 0 0 0
+                font-style: normal
+                font-weight: 300
+                font-size: 13.972px
+                line-height: 17px
+                text-align: center
+                color: #FBFBFB
+                width: 360px
+
+    .footer_middle
+        display: flex
+        flex-direction: column
+
+        &_left
+            &_text
+                width: unset
+
+        &_right
+            margin-left: unset
+
+            &_text
+                margin-bottom: unset
+
+            &_subscribe
+                padding: 22px 0 110px 0
+
+                &_input
+                    width: unset
+
+                &_button
+                    padding: 0 15px 0 15px
+
+    .footer_bottom
+        padding: 43px 62px 24px 62px
+        display: flex
+        flex-direction: column-reverse
+        align-items: center
+
+        &_copyright
+            text-align: center
+            padding-top: 25px
