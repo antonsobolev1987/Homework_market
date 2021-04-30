@@ -18,123 +18,72 @@ ul
     padding-left: calc(50% - 570px)
     padding-right: calc(50% - 570px)
 
+.container
+    max-width: 1140px
+    margin: auto
+
 .header
+    position: relative
     background: #222222
     height: 75px
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-pack: justify
-    -ms-flex-pack: justify
     justify-content: space-between
-    -webkit-box-align: center
-    -ms-flex-align: center
     align-items: center
-    position: relative
 
     &__right
-        display: -webkit-box
-        display: -ms-flexbox
         display: flex
-        -webkit-column-gap: 33px
         column-gap: 33px
-        -webkit-box-align: center
-        -ms-flex-align: center
         align-items: center
+
+    &__links
+        @extend .header__right
 
     &__search
         margin-left: 41px
 
-.header__menu
-    width: 32px
-    height: 23px
-    background: #222222
-    border: none
-    outline: none
-
-.menu__img
-    transition: all .2s
-
-.header__menu:hover
-    cursor: pointer
-
-.header__menu:hover .button_path
-    fill: $color
-
-.header__menu:focus .menu__img
-    transform: rotate(90deg)
-
-.header__menu:focus .main__menu
-    display: block
-
-.main__menu-close
-    text-align: right
-
-.menu-close-link:focus .main__menu
+#switcher
     display: none
 
-.menu-close-link:hover path
-    fill: $color_hover
+    &:checked ~ .nav
+        display: block
 
-.main__menu
-    display: none
-    height: 764px
-    width: 232px
-    background: #FFFFFF
+.nav
     position: absolute
-    z-index: 10
-    top: 76px
-    right: -1px
-    text-align: left
-    padding-top: 16px
-    padding-left: 34px
-    padding-right: 16px
+    top: 75px
+    right: 0
+    display: none
+    transition: right .3s
+    background-color: #fff
+    width: 232px
     box-sizing: border-box
-    box-shadow: 6px 4px 35px 0px #00000036
+    padding: 37px 32px 32px
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
 
-    &:hover
-        cursor: default
-
-    &-heading
+    &__h3
+        font-family: Lato
+        font-style: normal
+        font-weight: bold
         font-size: 14px
-        font-weight: 700
         line-height: 17px
-        letter-spacing: 0em
+        color: #000000
+        margin-bottom: 24px
 
-    &-list
-        margin-top: 24px
+    ul
+        list-style-type: none
 
-    &-items
+    &__catalog
+        font-family: Lato
+        font-style: normal
+        font-weight: normal
         font-size: 14px
-        font-weight: 400
         line-height: 17px
-        letter-spacing: 0em
         color: $color
+        text-transform: uppercase
 
-    &-sublist
-        display: flex
-        flex-direction: column
-        row-gap: 10px
-        margin-top: 10px
-        margin-bottom: 10px
-        margin-left: 20px
-
-    &-link
-        font-size: 14px
-        font-weight: 400
-        line-height: 17px
-        letter-spacing: 0em
-        color: #6F6E6E
-        transition: all .2s
-
-    &-link:hover
-        color: $color_hover
-
-    &-list
-        list-style: none
-
-    &-sublist
-        list-style: none
+    &__close
+        position: absolute
+        top: 16px
+        right: 16px
 
 .promo
     background: #F1E4E6
