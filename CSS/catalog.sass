@@ -21,122 +21,88 @@ summary
     padding-right: calc(50% - 570px)
 
 .header
+    position: relative
     background: #222222
     height: 75px
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-pack: justify
-    -ms-flex-pack: justify
     justify-content: space-between
-    -webkit-box-align: center
-    -ms-flex-align: center
     align-items: center
-    position: relative
 
     &__right
-        display: -webkit-box
-        display: -ms-flexbox
         display: flex
-        -webkit-column-gap: 33px
         column-gap: 33px
-        -webkit-box-align: center
-        -ms-flex-align: center
         align-items: center
+
+    &__links
+        @extend .header__right
+        &_mob
+            display: none
 
     &__search
         margin-left: 41px
 
-.header__menu
-    width: 32px
-    height: 23px
-    background: #222222
-    border: none
-    outline: none
+        &:hover svg path
+            fill: $color_hover
 
-.menu__img
-    transition: all .2s
-
-.header__menu:hover
-    cursor: pointer
-
-.header__menu:hover .button_path
-    fill: $color
-
-.header__menu:focus .menu__img
-    transform: rotate(90deg)
-
-.header__menu:focus .main__menu
-    display: block
-
-.main__menu-close
-    text-align: right
-
-.menu-close-link:focus .main__menu
+#switcher
     display: none
 
-.menu-close-link:hover path
+    &:checked ~ .nav
+        display: block
+
+.nav
+    position: absolute
+    top: 75px
+    right: 0
+    display: none
+    transition: right .3s
+    background-color: #fff
+    width: 232px
+    box-sizing: border-box
+    padding: 37px 32px 32px
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+
+    &__h3
+        font-family: Lato
+        font-style: normal
+        font-weight: bold
+        font-size: 14px
+        line-height: 17px
+        color: #000000
+        margin-bottom: 24px
+        padding-bottom: 12px
+
+    ul
+        list-style-type: none
+
+    &__catalog
+        font-family: Lato
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 17px
+        color: $color
+        text-transform: uppercase
+        padding-bottom: 12px
+
+    &__h2
+        margin-bottom: 20px
+        padding-left: 22px
+        padding-top: 12px
+
+    &__h4
+        margin-bottom: 12px
+
+    &__close
+        position: absolute
+        top: 16px
+        right: 16px
+
+.color_hov:hover svg path
     fill: $color_hover
 
-.main__menu
-    display: none
-    height: 764px
-    width: 232px
-    background: #FFFFFF
-    position: absolute
-    z-index: 10
-    top: 76px
-    right: -1px
-    text-align: left
-    padding-top: 16px
-    padding-left: 34px
-    padding-right: 16px
-    box-sizing: border-box
-    box-shadow: 6px 4px 35px 0px #00000036
-
-    &:hover
-        cursor: default
-
-    &-heading
-        font-size: 14px
-        font-weight: 700
-        line-height: 17px
-        letter-spacing: 0em
-
-    &-list
-        margin-top: 24px
-
-    &-items
-        font-size: 14px
-        font-weight: 400
-        line-height: 17px
-        letter-spacing: 0em
-        color: $color
-
-    &-sublist
-        display: flex
-        flex-direction: column
-        row-gap: 10px
-        margin-top: 10px
-        margin-bottom: 10px
-        margin-left: 20px
-
-    &-link
-        font-size: 14px
-        font-weight: 400
-        line-height: 17px
-        letter-spacing: 0em
-        color: #6F6E6E
-        transition: all .2s
-
-    &-link:hover
-        color: $color_hover
-
-    &-list
-        list-style: none
-
-    &-sublist
-        list-style: none
+.color_hov_p:hover
+    cursor: pointer
 
 .header_down
     background: #F8F3F4
@@ -631,10 +597,27 @@ summary
 
     .header
         height: unset
-        padding: 18px 8px 18px 8px
+        padding: 18px 32px 18px 32px
 
-    .header__link
+    .nav
+        width: 100%
+        min-height: calc( 100vh - 75px )
+        z-index: 1
+        padding-top: 64px
+        &__close
+            display: none
+
+    .header__links
         display: none
+        &_mob
+            background-color: #999
+            position: absolute
+            width: 100%
+            left: 0
+            top: 0
+            height: 48px
+            display: flex
+            justify-content: center
 
     .header_down
         display: flex
